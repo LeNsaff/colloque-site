@@ -1,0 +1,159 @@
+@import '../mixin/mixin.scss';
+@import '../fonction/fonction.scss';
+@import '../variables/varaibles.scss';
+
+body{
+    margin: 0px 30px 0px 30px;
+    @include ctnvert;
+    gap: 30px;
+    overflow-x: hidden
+}
+
+header{
+    @include ctnhor;
+    justify-content: space-between;
+    background-image: linear-gradient(aqua, yellow);
+    color: $fontcolor;
+    border-radius: $borderrad;
+}
+
+.headerpart{
+    @include ctnvert;
+    justify-content: space-between;
+}
+
+nav{
+    @include ctnvert;
+}
+
+.logctn{
+    @include ctnhor;
+    justify-content: end;
+}
+
+.navi{
+    @include ctnhor;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5px;
+}
+
+main{
+    @include ctnhor;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: relative;
+}
+
+.maincontent{
+    @include ctnvert;
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#main1{
+    display: flex ;
+}
+
+#main2{
+    display: none ;
+}
+
+#main3{
+    display: none ;
+}
+
+#popup{
+    display: none;
+    flex-direction: row;
+    padding: 30px;
+    background-color: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.popon{
+    display: block !important;
+}
+
+aside{
+    @include ctnvert;
+    gap: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-image: linear-gradient(aqua, yellow);
+    color: $fontcolor;
+}
+
+.footerlist{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+/*version tablette*/
+
+@media screen and (max-width: 1024px){
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .logctn{
+        justify-content: flex-start;
+    }
+
+    aside{
+        flex-direction: row;
+        border: $bordersize;
+        border-radius: $borderrad;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: end;
+    }
+
+    .footerlist{
+        gap: 20px;
+    }
+}
+
+/*version mobile*/
+
+@media screen and (max-width: 720px){
+    body{
+        margin: 0px;
+    }
+
+    aside{
+        justify-content: space-evenly;
+        font-size: 20px !important;
+    }
+
+    .asidetitle{
+        display: none;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+    
+    .footerlist{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
