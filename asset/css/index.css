@@ -47,6 +47,7 @@ main {
   align-items: center;
   z-index: 0;
   position: relative;
+  gap: 50px;
 }
 
 .maincontent {
@@ -54,7 +55,7 @@ main {
   flex-direction: column;
   width: 70%;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 #main1 {
@@ -109,8 +110,14 @@ footer {
 
 /*version tablette*/
 @media screen and (max-width: 1024px) {
+  body {
+    margin: 10px;
+  }
   main {
     flex-direction: column-reverse;
+  }
+  .maincontent {
+    margin-left: -5%;
   }
   .logctn {
     justify-content: flex-start;
@@ -133,7 +140,7 @@ footer {
 /*version mobile*/
 @media screen and (max-width: 720px) {
   body {
-    margin: 0px;
+    margin: 5px;
   }
   aside {
     justify-content: space-evenly;
