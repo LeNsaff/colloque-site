@@ -24,6 +24,7 @@ header {
 nav {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .logctn {
@@ -223,7 +224,7 @@ ul, a, li {
   text-align: center;
   padding-top: 10px;
   border: solid 1px black;
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding-top: 0 !important;
 }
