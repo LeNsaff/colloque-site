@@ -110,8 +110,9 @@ main{
     background-color: black;
     color: white;
     padding: auto;
-    width: 60%;
+    width: 50%;
     margin: 30% 50% 30% 20%;
+    padding: 5 10;
 }
 
 .btnclose{
@@ -119,6 +120,10 @@ main{
     border: $bordersize;
     border-radius: $borderrad;
     padding-top: 0 !important;
+}
+
+.listpop{
+    color: white;
 }
 
 .popctn{
