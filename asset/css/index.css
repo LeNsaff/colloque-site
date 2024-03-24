@@ -63,6 +63,12 @@ main {
   display: flex;
 }
 
+.orgactn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #main2 {
   display: none;
 }
@@ -93,6 +99,11 @@ aside {
   flex-direction: column;
   gap: 20px;
   text-align: center;
+  width: 200px;
+}
+
+.ctndates {
+  width: 100%;
 }
 
 footer {
@@ -235,6 +246,11 @@ ul, a, li {
 
 #comm {
   display: none;
+}
+
+.orgaimg {
+  height: 200px;
+  width: 200px;
 }
 
 /*version tablette*/

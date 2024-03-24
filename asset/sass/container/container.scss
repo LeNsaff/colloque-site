@@ -61,6 +61,7 @@ main{
 
 .orgactn{
     @include ctnhor;
+    justify-content: center;
 }
 
 #main2{
@@ -92,6 +93,11 @@ aside{
     @include ctnvert;
     gap: 20px;
     text-align: center;
+    width: 200px;
+}
+
+.ctndates{
+    width: 100%;
 }
 
 footer{
