@@ -50,3 +50,14 @@ function defile() {
 buttonIds.forEach(function(buttonId) {
     document.getElementById(buttonId).addEventListener("click", defile);
 });
+
+
+function displaypop(){
+    const popup = document.getElementById('popup');
+    popup.style.display = 'flex';
+}
+
+function displaypop1(){
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}

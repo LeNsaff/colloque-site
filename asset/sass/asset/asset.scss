@@ -2,20 +2,13 @@
 @import '../fonction/fonction.scss';
 @import '../variables/varaibles.scss';
 
-ul,a,li{
+button,ul,a,li{
     font-family: $fontfam;
     list-style: none;
     text-decoration: none;
     color: black;
 }
 
-.logbtn{
-   width: 10%;
-    @include btnbasic;
-   color: $fontcolor;
-   background-color: rgb(9, 9, 9);
-   padding-top: 0 !important;
-}
 
 .navbtn{
     @include btnbasic;
@@ -42,6 +35,18 @@ ul,a,li{
 .orgaimg{
     height: 200px;
     width: 200px;
+}
+
+.insbtn{
+    margin: 0 auto 0  auto;
+    @include btnbasic;
+    width: 100px;
+    height: 30px;
+    border-radius: $borderrad;
+    border: $bordersize;
+    text-align: center;
+    padding-top: 0 !important;
+    margin-top: 10px;
 }
 
 /*version tablette*/
