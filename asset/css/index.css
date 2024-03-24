@@ -81,7 +81,7 @@ main {
 
 .listm3 {
   text-align: start;
-  list-style: initial;
+  list-style: square;
   margin: 0 auto 0 auto;
 }
 
