@@ -98,21 +98,8 @@ main {
   display: none;
 }
 
-#popup {
+#main5 {
   display: none;
-  flex-direction: row;
-  padding: 30px;
-  background-color: rgba(255, 0, 0, 0.1);
-  text-align: center;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-}
-
-.popon {
-  display: block !important;
 }
 
 aside {
