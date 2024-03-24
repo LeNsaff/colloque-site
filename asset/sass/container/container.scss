@@ -11,15 +11,16 @@ body{
 
 header{
     @include ctnhor;
-    justify-content: space-between;
-    background-image: linear-gradient(aqua, yellow);
+    justify-content: center;
+    background-image: linear-gradient(rgb(78, 199, 142), yellow);
     color: $fontcolor;
-    border-radius: $borderrad;
+    padding: 5px;
 }
 
 .headerpart{
     @include ctnvert;
     justify-content: space-between;
+    margin: 0 auto 0 auto;
 }
 
 nav{
@@ -68,6 +69,7 @@ main{
 .orgactn{
     @include ctnhor;
     justify-content: center;
+    gap: 20px;
 }
 
 #main2{
