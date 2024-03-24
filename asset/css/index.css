@@ -57,8 +57,12 @@ main {
   flex-direction: column;
   width: 70%;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   margin-left: 20px;
+}
+
+.center {
+  text-align: center;
 }
 
 #main1 {
