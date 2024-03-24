@@ -59,6 +59,10 @@ main{
     display: flex ;
 }
 
+.orgactn{
+    @include ctnhor;
+}
+
 #main2{
     display: none ;
 }
