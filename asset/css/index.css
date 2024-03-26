@@ -88,7 +88,6 @@ main {
 
 .listm3 {
   text-align: start;
-  list-style: square;
   margin: 0 auto 0 auto;
 }
 
@@ -255,7 +254,7 @@ table, ul {
   font-family: "Raleway";
 }
 
-button, ul, a, li {
+button, a {
   font-family: "Raleway";
   list-style: none;
   text-decoration: none;
